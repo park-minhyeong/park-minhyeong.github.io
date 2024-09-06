@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/park-minhyeong.github.io/",
+  base: "/",
   resolve: {
     alias: [
       { find: "@components", replacement: "/src/components" },
