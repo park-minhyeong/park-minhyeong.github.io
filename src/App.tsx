@@ -5,7 +5,7 @@ import useRoute from "@/hook/useRoute";
 export default function App() {
   const routes = useRoute();
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {routes.map(({ path, component, layout }) => {
           return (
