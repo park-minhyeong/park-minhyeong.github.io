@@ -1,11 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { ComponentType, Fragment } from "react";
 import useRoute from "@/hook/useRoute";
 
 export default function App() {
   const routes = useRoute();
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Routes>
         {routes.map(({ path, component, layout }) => {
           return (
@@ -25,7 +25,7 @@ export default function App() {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
