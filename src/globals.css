@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@font-face {
+  font-family: "Pretendard-Medium";
+  src: url("./asset/fonts/Pretendard-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("./asset/fonts/Pretendard-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Pretendard-Light";
+  src: url("./asset/fonts/Pretendard-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Kostar";
+  src: url("./asset/fonts/Kostar.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "NicoMoji";
+  src: url("./asset/fonts/NicoMoji.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Megrim";
+  src: url("./asset/fonts/Megrim.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Times-Newer-Roman-Bold";
+  src: url("./asset/fonts/TimesNewerRoman-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Times-Newer-Roman-BoldItalic";
+  src: url("./asset/fonts/TimesNewerRoman-BoldItalic.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "PretendardVariable";
+  src: url("./asset/fonts/PretendardVariable.ttf") format("truetype");
+}
