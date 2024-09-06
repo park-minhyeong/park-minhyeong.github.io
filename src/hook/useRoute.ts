@@ -15,8 +15,6 @@ const COMPONENTS = import.meta.glob("/src/app/**/[a-z[]*.tsx") as Record<
   () => Promise<{ default: PageComponent }>
 >;
 
-console.log(LAYOUTS);
-
 export default function useRoute() {
   const [routes, setRoutes] = useState<RouteItem[]>([]);
   useEffect(() => {
