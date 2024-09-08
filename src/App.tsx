@@ -16,7 +16,6 @@ export default function App() {
             />
           );
         })}
-        <Route path="/hey" element={<div>hey</div>} />
         <Route
           path="*"
           element={
